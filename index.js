@@ -1,4 +1,3 @@
-import "@fontsource/poppins";
 import "photoswipe/dist/photoswipe.css"
 import PhotoSwipe from 'photoswipe/dist/photoswipe.esm';
 import "./gallery.css"

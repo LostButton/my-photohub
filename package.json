@@ -2,9 +2,9 @@
   "name": "My-PhotoHub",
   "version": "1.0.0",
   "description": "My Photohub is a web app that makes it easy to share your photos on the web.",
-  "source":"index.html",
+  "source":"index.js",
   "scripts": {
-    "predeploy": "rm -rf dist && parcel build index.html",
+    "predeploy": "del dist && parcel build --dist-dir dist",
     "deploy": "gh-pages -d dist",
     "start": "parcel index.html --open",
     "build": "parcel build --dist-dir dist"

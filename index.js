@@ -1,10 +1,10 @@
-import "@fontsource/poppins";
-import "photoswipe/dist/photoswipe.css"
-import PhotoSwipe from 'photoswipe/dist/photoswipe.esm';
+import "./node_modules/@fontsource/poppins";
+import "./node_modules/photoswipe/dist/photoswipe.css"
+import PhotoSwipe from './node_modules/photoswipe/dist/photoswipe.esm';
 import "./gallery.css"
 
 
-import Lightbox from 'photoswipe/dist/photoswipe-lightbox.esm';
+import Lightbox from './node_modules/photoswipe/dist/photoswipe-lightbox.esm';
 const lightbox = new Lightbox({
   gallery: '#gallery',
   children: 'a',
